@@ -1,6 +1,6 @@
-brunch build --production
-
 cd $phoenix_dir
+
+sh assets/bin/build.sh
 
 mix "${phoenix_ex}.digest"
 
